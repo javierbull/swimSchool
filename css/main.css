@@ -1,0 +1,155 @@
+:root {
+    --white: #FFFFFF;
+    --gray050: #F7F8F8;
+    --gray100: #EEEEF0;
+    --gray200: #D9DADE;
+    --gray300: #B7BAC2;
+    --gray400: #9095A0;
+    --gray500: #727885;
+    --gray600: #5C616D;
+    --gray700: #4B4F59;
+    --gray800: #41454B;
+    --gray900: #393B41;
+    --gray950: #1C1D20;
+    --primary050: #E8F7FF;
+    --primary100: #D5F0FF;
+    --primary200: #B3E1FF;
+    --primary300: #85CAFF;
+    --primary400: #56A5FF;
+    --primary500: #2F7FFF;
+    --primary600: #0C52FF;
+    --primary700: #0047FF;
+    --primary800: #0640CD;
+    --primary900: #103E9F;
+    --primary950: #0A225C;
+    --danger050: #FFF1F1;
+    --danger100: #FFE1E1;
+    --danger200: #FFC7C7;
+    --danger300: #FFA0A0;
+    --danger400: #FF5454;
+    --danger500: #F83B3B;
+    --danger600: #E51D1D;
+    --danger700: #C11414;
+    --danger800: #A01414;
+    --danger900: #841818;
+    --danger950: #480707;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.25rem;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: var();
+}
+
+/* typography */
+.display_1 {
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 4.5rem;
+}
+
+.display_2 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 4rem;
+}
+
+.display_3 {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 3.5rem;
+}
+
+.headline_1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3rem;
+}
+
+.headline_2 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+}
+
+.headline_3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+.headline_4 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+.headline_5 {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.25rem;
+}
+
+.headline_6 {
+    font-size: .875rem;
+    font-weight: 700;
+    line-height: 1.125rem;
+}
+
+.subhead_1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 3rem;
+}
+
+.subhead_2 {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+}
+
+.subhead_3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2rem;
+}
+
+.subhead_4 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.subhead_5 {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+}
+
+.subhead_6 {
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 1.125rem;
+}
+
+.body_2 {
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.125rem;
+}
+
+.caption {
+    font-size: .75rem;
+    font-weight: 400;
+    line-height: 1rem;
+}
+
+/* End Typography */
