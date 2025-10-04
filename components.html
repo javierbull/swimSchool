@@ -8,11 +8,14 @@
     <link rel="icon" href="img/logos/favicon.png" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
     <!-- CSS files -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/mq.css"> 
+    <link rel="stylesheet" href="css/mq.css">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.css">
 </head>
@@ -53,7 +56,7 @@
     </div>
     <!-- END TYPOGRAPHY -->
 
-     <!-- ICONS -->
+    <!-- ICONS -->
     <div class="container pt-4 pb-4">
         <h2 class="headline_2 mb-2">Ionic Icons</h2>
         <ion-icon name="arrow-back"></ion-icon>
@@ -183,9 +186,88 @@
     </div>
     <!-- END CHECKS -->
 
+    <!-- FORM -->
+    <div class="container mb-4">
+        <h2 class="headline_2 mb-2">Forms</h2>
+
+        <form class="card-base card-form">
+            <div class="form-floating wrap-form-control">
+                <input type="text" class="form-control" id="floatingInputName" placeholder="Nombre">
+                <label for="floatingInputName">Nombre y apellido</label>
+            </div>
+
+            <div class="row-form-control">
+                <div class="form-floating wrap-form-control">
+                    <input type="email" class="form-control" id="floatingInputEmail" placeholder="name@example.com">
+                    <label for="floatingInputEmail">Correo</label>
+                </div>
+
+                <div class="form-floating wrap-form-control">
+                    <input type="number" class="form-control" id="floatingInputCellphone" placeholder="Nombre">
+                    <label for="floatingInputCellphone">Celular</label>
+                </div>
+            </div>
+
+            <div class="form-floating wrap-form-control">
+                <select class="form-select" id="floatingSelectCourse" aria-label="Floating label select example">
+                    <option selected>Seleccione</option>
+                    <option value="1">Bebés</option>
+                    <option value="2">Niños</option>
+                    <option value="3">Adultos</option>
+                </select>
+                <label for="floatingSelectCourse">Curso</label>
+            </div>
+
+            <div class="row-form-control">
+                <div class="form-floating wrap-form-control">
+                    <select class="form-select" id="floatingSelectSchedule" aria-label="Floating label select example">
+                        <option selected>Seleccione</option>
+                        <option value="1">8:00 am</option>
+                        <option value="2">9:00 am</option>
+                        <option value="3">10:00 am</option>
+                        <option value="3">11:00 am</option>
+                        <option value="3">12:00 pm</option>
+                    </select>
+                    <label for="floatingSelectSchedule">Horario</label>
+                </div>
+
+                <div class="form-floating wrap-form-control">
+                    <select class="form-select" id="floatingSelectFrequency" aria-label="Floating label select example">
+                        <option selected>Seleccione</option>
+                        <option value="1">1 x semana</option>
+                        <option value="2">2 x semana</option>
+                        <option value="3">3 x semana</option>
+                    </select>
+                    <label for="floatingSelectFrequency">frecuencia</label>
+                </div>
+            </div>
+
+            <div class="form-floating wrap-form-control">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextareaComment" style="min-height: 100px;"></textarea>
+                <label for="floatingTextareaComment">Comentario</label>
+            </div>
+
+            <div class="wrap-form-control form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">
+                    Acepto las Política de privacidad <a href="#" class="primary-link">Leer aquí</a>
+                </label>
+            </div>
+
+            <button type="submit" class="btn primary-btn ms-auto">
+                Enviar mensaje
+                <ion-icon name="arrow-forward" role="img" class="md hydrated"></ion-icon>
+            </button>
+
+        </form>
+    </div>
+    <!-- END FORMS -->
+
     <!-- Js files -->
     <script src="js/jquery-1.9.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="js/owl.carousel.min.js"></script>
