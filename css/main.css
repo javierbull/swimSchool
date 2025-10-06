@@ -408,6 +408,16 @@ body {
     display: flex;
     justify-content: flex-end;
 }
+
+.card-benefit {
+    display: flex;
+    gap: 1rem;
+}
+
+.card-benefit ion-icon {
+    color: var(--primary600);
+    font-size: 2rem;
+}
 /* End cards */
 
 /* Navbar */
