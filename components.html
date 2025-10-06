@@ -190,7 +190,7 @@
     <div class="container mb-4">
         <h2 class="headline_2 mb-2">Forms</h2>
 
-        <form class="card-base card-form">
+        <form class="card-base contact-form">
             <div class="form-floating wrap-form-control">
                 <input type="text" class="form-control" id="floatingInputName" placeholder="Nombre">
                 <label for="floatingInputName">Nombre y apellido</label>
@@ -254,14 +254,53 @@
                 </label>
             </div>
 
-            <button type="submit" class="btn primary-btn ms-auto">
-                Enviar mensaje
-                <ion-icon name="arrow-forward" role="img" class="md hydrated"></ion-icon>
-            </button>
-
+            <div class="contact-form__action">
+                <button type="submit" class="btn primary-btn">
+                    Enviar mensaje
+                    <ion-icon name="arrow-forward" role="img" class="md hydrated"></ion-icon>
+                </button>
+            </div>
         </form>
     </div>
     <!-- END FORMS -->
+
+    <!-- NAVBAR -->
+    <div class="container pt-4 pb-4">
+        <h2 class="headline_2 mb-2">Navbar</h2>
+
+        <nav class="navbar-main">
+            <div class="container">
+                <img src="img/logos/Logo.png" class="navbar-logo" alt="">
+                
+                <ul class="navbar-menu">
+                    <div class="navbar-menu-start">
+                        <li class="navbar-item">
+                            <button type="button" class="btn ghost-btn">
+                                Nosotros
+                            </button>
+                        </li>
+                        <li class="navbar-item">
+                            <button type="button" class="btn ghost-btn">
+                                Cursos
+                            </button>
+                        </li>
+                        <li class="navbar-item">
+                            <button type="button" class="btn ghost-btn">
+                                Instalaciones
+                            </button>
+                        </li>
+                    </div>
+                    <li class="navbar-item">
+                        <button type="button" class="btn primary-btn">
+                            Contáctanos
+                        </button>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </div>
+    <!-- END NAVBAR -->
 
     <!-- Js files -->
     <script src="js/jquery-1.9.1.min.js"></script>
