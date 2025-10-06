@@ -384,12 +384,12 @@ body {
 /* Cards */
 
 .card-base {
-    padding: 1.5rem;
-    border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
+    overflow: hidden;
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
 }
 
 .contact-form {
@@ -421,12 +421,6 @@ body {
 
 .card-course {
     position: relative;
-    border-radius: 1.5rem;
-    -webkit-border-radius: 1.5rem;
-    -moz-border-radius: 1.5rem;
-    -ms-border-radius: 1.5rem;
-    -o-border-radius: 1.5rem;
-    overflow: hidden;
 }
 
 .card-course img {
@@ -501,12 +495,6 @@ body {
 
 .card-staff {
     /*background-color: lavender;*/
-    overflow: hidden;
-    border-radius: 1.5rem 1.5rem 0 0;
-    -webkit-border-radius: 1.5rem 1.5rem 0 0;
-    -moz-border-radius: 1.5rem 1.5rem 0 0;
-    -ms-border-radius: 1.5rem 1.5rem 0 0;
-    -o-border-radius: 1.5rem 1.5rem 0 0;
 }
 
 .card-staff img {
@@ -528,11 +516,6 @@ body {
     background: linear-gradient(90deg, #103E9F 0%, #0047FF 100%);
     color: var(--white);
     padding: 1.5rem 3rem;
-    border-radius: 1.5rem;
-    -webkit-border-radius: 1.5rem;
-    -moz-border-radius: 1.5rem;
-    -ms-border-radius: 1.5rem;
-    -o-border-radius: 1.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -541,6 +524,28 @@ body {
 
 .card-cta p {
     margin-bottom: 0;
+}
+
+.card-facility {
+    overflow: hidden;
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+}
+
+.card-facility img {
+    width: 100%;
+    transition: all ease-out .5s;
+    -webkit-transition: all ease-out .5s;
+    -moz-transition: all ease-out .5s;
+    -ms-transition: all ease-out .5s;
+    -o-transition: all ease-out .5s;
+}
+
+.card-facility:hover img {
+    scale: 1.1;
 }
 /* End cards */
 
