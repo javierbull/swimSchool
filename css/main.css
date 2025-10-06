@@ -498,6 +498,31 @@ body {
 .card-testimonial__desc p {
     margin-bottom: 0;
 }
+
+.card-staff {
+    /* background-color: lavender; */
+    overflow: hidden;
+    border-radius: 1rem 1rem 0 0;
+    -webkit-border-radius: 1rem 1rem 0 0;
+    -moz-border-radius: 1rem 1rem 0 0;
+    -ms-border-radius: 1rem 1rem 0 0;
+    -o-border-radius: 1rem 1rem 0 0;
+}
+
+.card-staff img {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+}
+
+.card-staff__desc {
+    padding: 1rem 0;
+}
+
+.card-staff__desc p {
+    margin-bottom: 0;
+    color: var(--gray700);
+}
 /* End cards */
 
 /* Navbar */
