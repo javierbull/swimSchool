@@ -440,6 +440,52 @@ body {
 }
 /* End Navbar */
 
+/* Bottom navigation */
+.navbar-bottom-menu {
+    /* background-color: pink; */
+    list-style: none;
+    display: flex;
+    width: 100%;
+    padding: .5rem 1rem;
+    gap: .5rem;
+    border-top: solid 1px var(--gray200);
+}
+
+.navbar-bottom-item {
+    flex-grow: 1;
+}
+
+.btn-navbar-bottom {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .25rem;
+    padding: .5rem;
+    font-size: .875rem;
+    border: none;
+    color: var(--primary950);
+    width: 100%;
+}
+
+.btn-navbar-bottom:hover {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .25rem;
+    padding: .5rem;
+    font-size: .875rem;
+    border: none;
+    color: var(--primary600);
+    width: 100%;
+}
+
+.btn-navbar-bottom ion-icon {
+    font-size: 1.5rem;
+}
+/* End navigation */
+
 /* Section */
 .section {
     scroll-margin: 85px;
