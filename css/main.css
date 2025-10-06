@@ -434,7 +434,17 @@ body {
     aspect-ratio: 1 / 1;
     display: block;
     object-fit: cover;
+    transition: all ease-out .5s;
+    -webkit-transition: all ease-out .5s;
+    -moz-transition: all ease-out .5s;
+    -ms-transition: all ease-out .5s;
+    -o-transition: all ease-out .5s;
 }
+
+.card-course:hover img {
+    scale: 1.1;
+}
+
 
 .card-course__overlay {
     position: absolute;
@@ -455,6 +465,37 @@ body {
 }
 
 .card-course__content p {
+    margin-bottom: 0;
+}
+
+.card-testimonial {
+    /* background-color: lavender; */
+}
+
+.card-testimonial__header {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card-testimonial__header img {
+    min-width: 3rem;
+    min-height: 3rem;
+    max-width: 3rem;
+    max-height: 3rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.card-testimonial__header-text p {
+    margin-bottom: 0;
+    color: var(--gray700);
+}
+
+.card-testimonial__desc p {
     margin-bottom: 0;
 }
 /* End cards */
