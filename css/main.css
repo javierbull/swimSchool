@@ -798,7 +798,6 @@ body {
     display: none;
     position: fixed;
     z-index: 1;
-    /* padding-top: 3.5rem; */
     left: 0;
     top: 0;
     width: 100%;
@@ -819,7 +818,7 @@ body {
 
 /* Hide the slides by default */
 .mySlides {
-    /* background-color: pink; */
+    /*background-color: pink;*/
     display: none;
     height: 100%;
 }
@@ -834,15 +833,7 @@ body {
     -moz-border-radius: 1.5rem;
     -ms-border-radius: 1.5rem;
     -o-border-radius: 1.5rem;
-    transition: all ease-out .5s;
-    -webkit-transform:;
-    -moz-transform:;
-    -ms-transform:;
-    -o-transform:;
-    -webkit-transition: all ease-out .5s;
-    -moz-transition: all ease-out .5s;
-    -ms-transition: all ease-out .5s;
-    -o-transition: all ease-out .5s;
+
 }
 
 /* The Close Button */
