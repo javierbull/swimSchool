@@ -295,6 +295,12 @@ body {
   padding: 1rem 1.5rem;
 }
 
+.form-floating > .form-select {
+  padding-top: 1.625rem;
+  padding-bottom: 0.625rem;
+  padding-left: 1.55rem;
+}
+
 .form-control {
     display: block;
     width: 100%;
