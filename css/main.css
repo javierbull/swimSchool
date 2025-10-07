@@ -749,4 +749,8 @@ body {
 .table th, .table td {
     color: var(--primary950);
 }
+
+.table-group-divider {
+    color: var(--primary600);
+}
 /* End tables */
