@@ -261,6 +261,16 @@ body {
     text-decoration: none;
 }
 
+.social-btn {
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: var(--primary600);
+}
+
+.social-btn:hover {
+    color: var(--primary800);
+}
+
 /* End buttons */
 
 /* Inputs */
@@ -616,8 +626,6 @@ body {
     bottom: 1rem;
     width: 5.5rem;
 }
-
-
 /* End cards */
 
 /* Navbar */
@@ -701,3 +709,28 @@ body {
     scroll-margin: 85px;
 }
 /* End Section */
+
+/* Pills */
+.pill {
+    padding: .5rem 1.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: .75rem;
+    border: solid 1px var(--gray200);
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+.pill ion-icon {
+    color: var(--primary600);
+    font-size: 1.5rem;
+}
+
+.pill p {
+    margin-bottom: 0;
+}
+/* End pills */
