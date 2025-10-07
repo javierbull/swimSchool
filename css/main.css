@@ -847,19 +847,26 @@ body {
 
 /* The Close Button */
 .close {
-    color: white;
+    color: var(--gray100);
     position: absolute;
     top: 2rem;
     right: 2rem;
     font-size: 2rem;
     font-weight: bold;
+    padding: 1rem;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
 }
 
 .close:hover,
 .close:focus {
-    color: #999;
+    color: var(--white);
     text-decoration: none;
     cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 /* Next & previous buttons */
@@ -869,21 +876,25 @@ body {
     position: absolute;
     top: 50%;
     width: auto;
-    padding: 16px;
+    padding: 1rem;
     margin-top: -50px;
-    color: white;
+    color: var(--white);
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.5rem;
     transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
     user-select: none;
+    border-radius: .5rem;
     -webkit-user-select: none;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+    text-decoration: none;
 }
 
 /* Position the "next button" to the right */
 .next {
     right: 0;
-    border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -904,31 +915,6 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-}
-
-/* Caption text */
-.caption-container {
-    text-align: center;
-    background-color: black;
-    padding: 2px 16px;
-    color: white;
-}
-
-img.demo {
-    opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-    opacity: 1;
-}
-
-img.hover-shadow {
-    transition: 0.3s;
-}
-
-.hover-shadow:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* End Gallery lightbox */
