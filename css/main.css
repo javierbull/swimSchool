@@ -849,8 +849,8 @@ body {
 .close {
     color: var(--gray100);
     position: absolute;
-    top: 2rem;
-    right: 2rem;
+    top: 1.5rem;
+    right: 1.5rem;
     font-size: 2rem;
     font-weight: bold;
     padding: 1rem;
