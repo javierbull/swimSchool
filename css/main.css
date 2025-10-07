@@ -734,3 +734,19 @@ body {
     margin-bottom: 0;
 }
 /* End pills */
+
+/* Tables */
+.wrap-table {
+    border: solid 1px var(--gray200);
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+}
+
+.table th, .table td {
+    color: var(--primary950);
+}
+/* End tables */
