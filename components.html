@@ -620,12 +620,16 @@
         <h2 class="headline_2 mb-2">Modals</h2>
 
         <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalNosotros">
             Modal Nosotros
         </button>
 
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCurso">
+            Modal Curso
+        </button>
+
+        <!-- Modal Nosotros -->
+        <div class="modal fade" id="modalNosotros" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg modal-dialog-scrollable">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -720,6 +724,51 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="card-cta card-base">
+                            <p class="headline_3">
+                                Para más información escríbenos y un asesor se contactará contigo
+                            </p>
+                            <button type="button" class="btn secondary-btn">
+                                Contáctanos
+                                <ion-icon name="arrow-forward" role="img" class="md hydrated"><template
+                                        shadowrootmode="open">
+                                        <div class="icon-inner"><svg xmlns="http://www.w3.org/2000/svg"
+                                                class="ionicon s-ion-icon" viewBox="0 0 512 512">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="48"
+                                                    d="M268 112l144 144-144 144M392 256H100" class="ionicon-fill-none">
+                                                </path>
+                                            </svg></div>
+                                    </template></ion-icon>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Curso -->
+         <div class="modal fade" id="modalCurso" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title headline_3" id="exampleModalLabel">Curso para Bebés</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="banner-modal">
+                            <img src="img/banners/banner-curso.png" alt="">
+                            <div class="banner-overlay">
+                                <div class="banner-overlay__content">
+                                    <h3 class="display_3">Clases de natación para bebés</h3>
+                                    <p class="subhead_3 mb-0">
+                                        De 5 meses a 2 años
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        
 
                         <div class="card-cta card-base">
                             <p class="headline_3">

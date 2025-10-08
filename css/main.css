@@ -957,6 +957,7 @@ body {
     -ms-border-radius: 0 0 1.5rem 1.5rem;
     -o-border-radius: 0 0 1.5rem 1.5rem;
     margin-bottom: 1.25rem;
+    position: relative;
 }
 
 .banner-modal img {
@@ -976,6 +977,23 @@ body {
 
 .grid-staff .card-staff {
     max-width: 13.5rem;
+}
+
+.banner-overlay {
+    background-color: rgba(10, 34, 92, .4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+}
+
+.banner-overlay__content {
+    text-align: center;
+    color: var(--white);
+    padding: 2.5rem;
 }
 
 /* END MODALS */
