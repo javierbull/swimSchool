@@ -769,6 +769,10 @@ body {
     -o-border-radius: 1.5rem;
 }
 
+.table {
+    font-size: .875rem;
+}
+
 .table th,
 .table td {
     color: var(--primary950);
