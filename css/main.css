@@ -467,13 +467,16 @@ body {
 }
 
 .card-benefit {
-    display: flex;
-    gap: 1rem;
+    padding-left: 3rem;
+    position: relative;
 }
 
 .card-benefit ion-icon {
     color: var(--primary600);
     font-size: 2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .card-course {
@@ -994,6 +997,23 @@ body {
     text-align: center;
     color: var(--white);
     padding: 2.5rem;
+}
+
+.grid-beneficios {
+  display: flex;  
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+
+.grid-beneficios .card-benefit {
+    /* background-color: pink; */
+    width: 48%;
+    padding-left: 2rem;
+}
+
+.grid-beneficios .card-benefit ion-icon {
+    /* color: tomato; */
+    font-size: 1.5rem;
 }
 
 /* END MODALS */
