@@ -807,7 +807,7 @@ body {
 }
 
 /* Modal Content */
-.modal-content {
+.modal-lightbox .modal-content {
     /* background-color: blue; */
     position: relative;
     margin: auto;
@@ -934,3 +934,48 @@ body {
 .footer-menu__item {}
 
 /* End footer */
+
+/* MODALS */
+.modal-content {
+    color: var(--primary950);
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+}
+
+.modal-header, .modal-body {
+    padding: 1.5rem;
+}
+
+.banner-modal {
+    overflow: hidden;
+    border-radius: 0 0 1.5rem 1.5rem;
+    -webkit-border-radius: 0 0 1.5rem 1.5rem;
+    -moz-border-radius: 0 0 1.5rem 1.5rem;
+    -ms-border-radius: 0 0 1.5rem 1.5rem;
+    -o-border-radius: 0 0 1.5rem 1.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.banner-modal img {
+    width: 100%;
+}
+
+.section-modal {
+    margin-bottom: 1.25rem;
+}
+
+.grid-staff {
+    display: flex;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grid-staff .card-staff {
+    max-width: 13.5rem;
+}
+
+/* END MODALS */
