@@ -952,8 +952,14 @@ body {
     -o-border-radius: 1.5rem;
 }
 
-.modal-header, .modal-body {
+.modal-header, .modal-body, .modal-footer {
     padding: 1.5rem;
+}
+
+.modal-footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .banner-modal {
