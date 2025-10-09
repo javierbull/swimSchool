@@ -868,8 +868,8 @@ body {
 }
 
 /* Next & previous buttons */
-.prev,
-.next {
+.modal-lightbox .prev,
+.modal-lightbox .next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -891,13 +891,13 @@ body {
 }
 
 /* Position the "next button" to the right */
-.next {
+.modal-lightbox .next {
     right: 0;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
+.modal-lightbox .prev:hover,
+.modal-lightbox .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
