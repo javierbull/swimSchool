@@ -33,3 +33,18 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
 }
+
+// Owl carousel
+
+$(document).ready(function () {
+
+    $("#owl-testimonials").owlCarousel({
+        autoPlay: true,
+        items: 2,
+        itemsDesktop: [1199, 3],
+        itemsDesktopSmall: [979, 3],
+        itemsMobile : [479,2],
+        pagination: true
+    });
+
+});
