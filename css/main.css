@@ -524,6 +524,7 @@ body {
 
 .card-testimonial {
     /* background-color: lavender; */
+    padding: 0 .5rem;
 }
 
 .card-testimonial__header {
@@ -1029,5 +1030,23 @@ body {
 /* END MODALS */
 
 /* CAROUSEL-TESTIMONIALS */
+.container-controls-carousel {
+    /* background-color: lightgreen; */
+    position: relative;
+    padding: 0 4.5rem;
+}
 
+.container-controls-carousel .btn {
+    position: absolute;
+    top: calc(50% - 27.4px);
+    margin: auto;
+}
+
+.container-controls-carousel .prev {
+    left: 0;
+}
+
+.container-controls-carousel .next {
+    right: 0;
+}
 /* END CAROUSEL TESTIMONIAL */

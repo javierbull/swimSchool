@@ -44,7 +44,7 @@ $(document).ready(function () {
 
     items: 2, //10 items above 1000px browser width
     loop: true, // Para un bucle infinito
-    margin: 10, // Margen entre elementos
+    margin: 16, // Margen entre elementos
     autoplay: true, // Para que se mueva automáticamente
     nav: true, // Habilita los controles de navegación (flechas)
     itemsDesktop: [1000, 5], //5 items between 1000px and 901px
