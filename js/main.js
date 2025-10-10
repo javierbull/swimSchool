@@ -42,16 +42,15 @@ $(document).ready(function () {
 
   owl.owlCarousel({
 
-    items: 2, //10 items above 1000px browser width
-    loop: true, // Para un bucle infinito
-    margin: 16, // Margen entre elementos
-    autoplay: true, // Para que se mueva automáticamente
-    nav: true, // Habilita los controles de navegación (flechas)
-    itemsDesktop: [1000, 2], //5 items between 1000px and 901px
-    itemsDesktopSmall: [900, 2], // 3 items betweem 900px and 601px
-    itemsTablet: [600, 2], //2 items between 600 and 0;
-    itemsMobile: false // itemsMobile disabled - inherit from itemsTablet option
-
+    items: 2,
+    loop: true,
+    margin: 16,
+    autoplay: true,
+    nav: true,
+    itemsDesktop: [1000, 2],
+    itemsDesktopSmall: [900, 2],
+    itemsTablet: [600, 2],
+    itemsMobile : [479,1]
   });
 
   // Custom Navigation Events
