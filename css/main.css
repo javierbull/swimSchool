@@ -1052,6 +1052,8 @@ body {
 /* END CAROUSEL TESTIMONIAL */
 
 /* INDEX */
+
+/* HERO */
 .hero {
     overflow: hidden;
     border-radius: 0 0 1.5rem 1.5rem;
@@ -1083,4 +1085,54 @@ body {
     text-align: center;
     color: var(--white);
 }
+/* END HERO */
+
+/* SECTION NOSOTROS */
+.section {
+    padding: 3rem 0;
+}
+
+.section__nosotros {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+
+.section__nosotros--start, .section__nosotros--end  {
+    width: 50%;
+}
+
+.section__nosotros--start {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.section__nosotros--start h3, .section__nosotros--start p {
+    margin-bottom: 0;
+}
+
+.section__nosotros--actions {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.section__nosotros--end {
+    overflow: hidden;
+}
+
+.section__nosotros--img {
+    width: 100%;
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+}
+
+
+/* END SECTION NOSOTROS */
+
 /* END INDEX */
