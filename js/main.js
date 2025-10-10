@@ -47,8 +47,8 @@ $(document).ready(function () {
     margin: 16, // Margen entre elementos
     autoplay: true, // Para que se mueva automáticamente
     nav: true, // Habilita los controles de navegación (flechas)
-    itemsDesktop: [1000, 5], //5 items between 1000px and 901px
-    itemsDesktopSmall: [900, 3], // 3 items betweem 900px and 601px
+    itemsDesktop: [1000, 2], //5 items between 1000px and 901px
+    itemsDesktopSmall: [900, 2], // 3 items betweem 900px and 601px
     itemsTablet: [600, 2], //2 items between 600 and 0;
     itemsMobile: false // itemsMobile disabled - inherit from itemsTablet option
 
