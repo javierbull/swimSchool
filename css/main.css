@@ -1131,8 +1131,19 @@ body {
     -ms-border-radius: 1.5rem;
     -o-border-radius: 1.5rem;
 }
-
-
 /* END SECTION NOSOTROS */
+
+/* SECTION CURSOS */
+.bg-gray {
+    background-color: var(--gray050);
+}
+
+.section__cursos--grid {
+    /* background-color: tomato; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+/* END SECTION CURSOS */
 
 /* END INDEX */
