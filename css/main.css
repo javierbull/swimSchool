@@ -1155,8 +1155,31 @@ body {
 }
 /* END BENEFICIOS */
 
-/* SECTION TESTIMONIOS */
+/* SECTION CONTACTO */
+.section__contacto--wrap {
+    display: flex;
+    gap: 3rem;
+}
 
-/* END SECTION TESTIMONIOS */
+.section__contacto--wrap .section__contacto--start,
+.section__contacto--wrap .section__contacto--end {
+    width: 50%;
+}
+.section__contacto--chips {
+    /* background-color: lavender; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: .75rem;
+}
+
+.section__contacto--start {
+    /* background-color: tomato; */
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+/* END SECTION CONTACTO */
 
 /* END INDEX */
