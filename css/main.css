@@ -1146,4 +1146,12 @@ body {
 }
 /* END SECTION CURSOS */
 
+/* SECTION BENEFICIOS */
+.section__beneficios--grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+/* END BENEFICIOS */
+
 /* END INDEX */
