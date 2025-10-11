@@ -612,7 +612,7 @@ body {
 .card-newsletter {
     background: linear-gradient(93.05deg, #2F7FFF -0.51%, #0047FF 49.51%, #103E9F 100.5%);
     color: var(--white);
-    padding: 2rem 16rem;
+    padding: 2rem 14.5rem;
     border-radius: 1.5rem;
     -webkit-border-radius: 1.5rem;
     -moz-border-radius: 1.5rem;
@@ -623,6 +623,7 @@ body {
     align-items: center;
     position: relative;
     border: .5rem solid var(--primary300);
+    margin-top: 2rem;
 }
 
 .card-newsletter__content {
