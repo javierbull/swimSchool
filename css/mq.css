@@ -1,9 +1,26 @@
-/* Tablet horizontal */
-@media (max-width: 1024px) {
+/* Tablet */
+@media (max-width: 845px) {
     main {
         background-color: lightgreen;
+        /* display: none; */
     }
 
-    
+    .container-footer {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .footer-menu {
+        flex-direction: column;
+        padding-left: 0;
+        gap: 1.5rem;
+    }
+
+    .footer-menu__item .btn {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
 }
-/* End tablet horizontal */
+
+/* End tablet */
+
