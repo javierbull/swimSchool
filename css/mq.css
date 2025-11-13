@@ -41,6 +41,10 @@
         font-size: 2rem;
     }
 
+    .headline_2 {
+        font-size: 1.5rem;
+    }
+
     .section .mb-5 {
         margin-bottom: 1.5rem !important;
     }
@@ -101,6 +105,28 @@
     }
 
     /* End Newsletter */
+
+    /* Contacto */
+    .section__contacto--wrap {
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+    }
+
+    .section__contacto--wrap .section__contacto--start,
+    .section__contacto--wrap .section__contacto--end {
+        width: 100%;
+    }
+
+    .section__contacto--start {
+        gap: 1rem;
+    }
+
+    .section__contacto--start h3 {
+        margin-bottom: 0;
+    }
+
+    /* End contacto */
 }
 
 /* End tablet */
