@@ -1,0 +1,9 @@
+/* Tablet horizontal */
+@media (max-width: 1024px) {
+    main {
+        background-color: lightgreen;
+    }
+
+    
+}
+/* End tablet horizontal */

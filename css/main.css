@@ -50,6 +50,10 @@ body {
     color: var(--primary950);
 }
 
+main {
+    margin-top: 85px;
+}
+
 /* typography */
 .display_1 {
     font-size: 4rem;
