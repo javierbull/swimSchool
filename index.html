@@ -66,9 +66,9 @@
                         <p class="subhead_3">
                             Especialistas en enseñanza personalizada
                         </p>
-                        <button type="button" class="btn primary-btn">
+                        <a href="#section-cursos" class="btn primary-btn">
                             Conoce nuestros cursos
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -87,12 +87,12 @@
                             seguro, divertido y educativo donde los nadadores puedan desarrollarse plenamente.
                         </p>
                         <div class="section__nosotros--actions">
-                            <button type="button" class="btn secondary-btn" data-bs-toggle="modal" data-bs-target="#modalNosotros">
+                            <a class="btn secondary-btn" data-bs-toggle="modal" data-bs-target="#modalNosotros">
                                 Saber más
-                            </button>
-                            <button type="button" class="btn primary-btn">
+                            </a>
+                            <a href="#section-contacto" class="btn primary-btn">
                                 Contáctanos
-                            </button>
+                            </a>
                         </div>
                     </div>
                     <div class="section__nosotros--end">
@@ -691,11 +691,11 @@
 
     <!-- MODALS -->
      <!-- Modal Nosotros -->
-        <div class="modal fade" id="modalNosotros" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="modalNosotros" tabindex="-1" aria-labelledby="modalNosotros" aria-hidden="true">
             <div class="modal-dialog modal-lg modal-dialog-scrollable">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="modal-title headline_3" id="exampleModalLabel">Acerca de nosotros</h1>
+                        <h1 class="modal-title headline_3" id="modalNosotros">Acerca de nosotros</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -791,18 +791,12 @@
                             <p class="headline_3">
                                 Para más información escríbenos y un asesor se contactará contigo
                             </p>
-                            <button type="button" class="btn secondary-btn">
-                                Contáctanos
-                                <ion-icon name="arrow-forward" role="img" class="md hydrated"><template
-                                        shadowrootmode="open">
-                                        <div class="icon-inner"><svg xmlns="http://www.w3.org/2000/svg"
-                                                class="ionicon s-ion-icon" viewBox="0 0 512 512">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="48"
-                                                    d="M268 112l144 144-144 144M392 256H100" class="ionicon-fill-none">
-                                                </path>
-                                            </svg></div>
-                                    </template></ion-icon>
-                            </button>
+                            <div data-bs-dismiss="modal">
+                                <a href="#section-contacto" class="btn secondary-btn">
+                                    Contáctanos
+                                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -810,11 +804,11 @@
         </div>
 
         <!-- Modal Curso -->
-        <div class="modal fade" id="modalCurso" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="modalCurso" tabindex="-1" aria-labelledby="modalCursos" aria-hidden="true">
             <div class="modal-dialog modal-lg modal-dialog-scrollable">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="modal-title headline_3" id="exampleModalLabel">Curso para Bebés</h1>
+                        <h1 class="modal-title headline_3" id="modalCursos">Curso para Bebés</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -932,18 +926,12 @@
                             <p class="headline_3">
                                 Para más información escríbenos y un asesor se contactará contigo
                             </p>
-                            <button type="button" class="btn secondary-btn">
-                                Contáctanos
-                                <ion-icon name="arrow-forward" role="img" class="md hydrated"><template
-                                        shadowrootmode="open">
-                                        <div class="icon-inner"><svg xmlns="http://www.w3.org/2000/svg"
-                                                class="ionicon s-ion-icon" viewBox="0 0 512 512">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="48"
-                                                    d="M268 112l144 144-144 144M392 256H100" class="ionicon-fill-none">
-                                                </path>
-                                            </svg></div>
-                                    </template></ion-icon>
-                            </button>
+                            <div data-bs-dismiss="modal">
+                                <a href="#section-contacto" class="btn secondary-btn">
+                                    Contáctanos
+                                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -951,12 +939,12 @@
         </div>
 
         <!-- Modal Newsletter -->
-        <div class="modal fade" id="modalNewsletter" tabindex="-1" aria-labelledby="exampleModalLabel"
+        <div class="modal fade" id="modalNewsletter" tabindex="-1" aria-labelledby="modalNewsletter"
             aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="modal-title headline_3" id="exampleModalLabel">¡Te damos la bienvenida!</h1>
+                        <h1 class="modal-title headline_3" id="modalNewsletter">¡Te damos la bienvenida!</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -972,12 +960,12 @@
         </div>
 
         <!-- Modal Formulario -->
-        <div class="modal fade" id="modalFormulario" tabindex="-1" aria-labelledby="exampleModalLabel"
+        <div class="modal fade" id="modalFormulario" tabindex="-1" aria-labelledby="modalFormulario"
             aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="modal-title headline_3" id="exampleModalLabel">Mensaje enviado</h1>
+                        <h1 class="modal-title headline_3" id="modalFormulario">Mensaje enviado</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
