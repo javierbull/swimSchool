@@ -86,9 +86,21 @@
 
     /* End instalaciones */
 
-    /* Testimonios */
-    
-    /* End testimonios */
+    /* Newsletter */
+    .card-newsletter {
+        padding: 2.5rem;
+    }
+
+    .card-newsletter__simg,
+    .card-newsletter__eimg {
+        display: none;
+    }
+
+    .input-newsletter {
+        width: 100%;
+    }
+
+    /* End Newsletter */
 }
 
 /* End tablet */
