@@ -864,6 +864,7 @@ main {
     -moz-border-radius: .5rem;
     -ms-border-radius: .5rem;
     -o-border-radius: .5rem;
+    z-index: 10000;
 }
 
 .close:hover,
@@ -917,7 +918,9 @@ main {
     position: absolute;
     margin: auto;
     top: 1.5rem;
-    width: 100%;
+    left: 0;
+    right: 0;
+    width: 30%;
     display: flex;
     justify-content: center;
 }

@@ -1,8 +1,7 @@
 /* Tablet */
 @media (max-width: 845px) {
     main {
-        background-color: lightgreen;
-        /* display: none; */
+        /* background-color: lightgreen; */
     }
 
     .container-footer {
@@ -20,7 +19,72 @@
         padding-top: 0;
         padding-bottom: 0;
     }
+
+    /* Hero */
+    .hero__content h1 {
+        /* color: pink; */
+        font-size: 2rem;
+    }
+
+    .hero__content .subhead_3 {
+        font-size: 1.25rem;
+    }
+
+    .hero-overlay {
+        padding: 1.5rem;
+    }
+
+    /* End hero */
+
+    /* titles section*/
+    .headline_1 {
+        font-size: 2rem;
+    }
+
+    .section .mb-5 {
+        margin-bottom: 1.5rem !important;
+    }
+
+    /* End titles section */
+
+    /* Cursos */
+    .section__cursos--grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* End cursos */
+
+    /* Beneficios */
+    .section__beneficios--grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* End beneficios */
+
+    /* Instalaciones */
+    .modal-lightbox .modal-content {
+        /* background-color: blue; */
+        position: relative;
+        margin: auto;
+        padding: 5rem 0;
+        width: 95%;
+        height: 100%;
+    }
+
+    .mySlides img {
+        width: 80%;
+        height: auto;
+        /* max-height: 80%; */
+        display: block;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    /* End instalaciones */
 }
 
 /* End tablet */
-
