@@ -49,7 +49,7 @@ $(document).ready(function () {
     nav: true,
     itemsDesktop: [1000, 2],
     itemsDesktopSmall: [900, 2],
-    itemsTablet: [600, 2],
+    itemsTablet: [768, 1],
     itemsMobile : [479,1]
   });
 
