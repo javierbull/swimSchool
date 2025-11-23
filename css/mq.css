@@ -130,3 +130,31 @@
 }
 
 /* End tablet */
+
+/* Mobile */
+@media (max-width: 480px) {
+
+    .navbar-main {
+        padding: .75rem 1.25rem;
+    }
+
+    .navbar-menu-start {
+        display: none;
+    }
+
+    .container-full-mobile {
+        padding: 0;
+    }
+
+    /* Hero */
+    .hero {
+        height: 50vh;
+    }
+
+    .hero__img {
+        height: 100%;
+    }
+    /* End Hero */
+}
+
+/* End mobile */
