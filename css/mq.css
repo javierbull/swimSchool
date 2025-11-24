@@ -236,6 +236,17 @@
     }
 
     /* End newsltter */
+
+    /* Contacto */
+    .row-form-control {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .contact-form__action .btn {
+        width: 100%;
+    }
+    /* End contacto */
 }
 
 /* End mobile */
