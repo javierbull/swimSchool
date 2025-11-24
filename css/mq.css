@@ -134,6 +134,10 @@
 /* Mobile */
 @media (max-width: 480px) {
 
+    main {
+        margin-top: 78px;
+    }
+
     .navbar-main {
         padding: .75rem 1.25rem;
     }
@@ -160,6 +164,7 @@
     /* Nosotros */
     .section {
         padding: 1.5rem 0;
+        scroll-margin: 78px;
     }
 
     .section__nosotros {
@@ -184,6 +189,15 @@
     }
 
     /* End cursos */
+
+    /* Beneficios */
+    .section__beneficios--grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.5rem;
+    }
+
+    /* End beneficios */
 
     /* Newsletter */
     .card-newsletter {
