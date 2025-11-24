@@ -202,10 +202,20 @@
     /* Instalaciones */
     .facility-gallery {
         column-count: 2;
-        column-gap: 1rem;
     }
 
     /* End instalaciones */
+
+    /* Testimonios */
+    .container-controls-carousel {
+        padding: 0;
+    }
+
+    .container-controls-carousel .btn {
+        display: none;
+    }
+
+    /* End testimonios */
 
     /* Newsletter */
     .card-newsletter {
