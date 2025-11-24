@@ -199,6 +199,14 @@
 
     /* End beneficios */
 
+    /* Instalaciones */
+    .facility-gallery {
+        column-count: 2;
+        column-gap: 1rem;
+    }
+
+    /* End instalaciones */
+
     /* Newsletter */
     .card-newsletter {
         display: none;
