@@ -154,7 +154,36 @@
     .hero__img {
         height: 100%;
     }
+
     /* End Hero */
+
+    /* Nosotros */
+    .section {
+        padding: 1.5rem 0;
+    }
+
+    .section__nosotros {
+        flex-direction: column;
+    }
+
+    .section__nosotros--start,
+    .section__nosotros--end {
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .section__nosotros--actions .btn {
+        flex-grow: 1;
+    }
+
+    /* End nosotros */
+
+    /* Newsletter */
+    .card-newsletter {
+        display: none;
+    }
+
+    /* End newsltter */
 }
 
 /* End mobile */
