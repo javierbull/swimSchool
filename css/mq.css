@@ -178,6 +178,13 @@
 
     /* End nosotros */
 
+    /* Cursos */
+    .section__cursos--grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* End cursos */
+
     /* Newsletter */
     .card-newsletter {
         display: none;
